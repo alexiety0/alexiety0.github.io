@@ -2,66 +2,24 @@
 <html>
    <head>
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <style>
-         body {
-         font-family: "Comic Sans MS", cursive, sans-serif;
-         }
-         .sidenav {
-         height: 100%;
-         width: 160px;
-         position: fixed;
-         z-index: 1;
-         top: 0;
-         left: 0;
-         background-color: #ff99ff;
-         overflow-x: hidden;
-         padding-top: 20px;
-         }
-         .sidenav a {
-         padding: 6px 8px 6px 16px;
-         text-decoration: none;
-         font-size: 25px;
-         color: #000000;
-         display: block;
-         }
-         .sidenav a:hover {
-         color: #ff3399;
-         }
-         a:link {
-         text-decoration: none;
-         color: #99ffcc;
-         }
-         .main {
-         margin-left: 160px; /* Same as the width of the sidenav */
-         font-size: 28px; /* Increased text to enable scrolling */
-         padding: 0px 10px;
-         }
-         .wavy {
-         display: inline-flex;
-         justify-content: left;
-         flex-wrap: wrap;
-         white-space: pre-wrap;
-         }
-         @media screen and (max-height: 450px) {
-         .sidenav {padding-top: 15px;}
-         .sidenav a {font-size: 18px;}
-         }
-      </style>
+      <link rel="stylesheet" href="style.css">
    </head>
-   <script> function ratwall() {var randomColor = Math.floor(Math.random()*16777215).toString(16);document.body.style.backgroundColor = `#${randomColor}`;document.getElementById("secret").style.color = `#${randomColor}`} </script>
+   <script> function ratwall() {var randomColor = Math.floor(Math.random()*16777215).toString(16);document.body.style.backgroundColor = `#${randomColor}`;} </script>
    <body>
+     <audio autoplay>
+       <source src="music1.mp3" type="audio/mp3">
+      </audio>
       <script src="wavyText.js" defer></script>
-      <audio autoplay>
-        <source src="music1.mp3" type="audio/mp3">
-       </audio>
       <div class="sidenav">
          <a href="index.html">home</a>
          <a href="javascript:alert('ᘛ⁐̤ᕐᐷ');">opossum</a>
-         <a href="#p3">hello how are you</a>
+         <a href="characters.html">charecters</a>
          <a href="opossums.html">opossum gallery!!!</a>
+         <a href="pokemon.html">pokemon?!?</a>
          <button onclick="ratwall()">hel,p how do i get rid of thi s</button>
       </div>
       <div class="main">
+
          <body style="background-color:#99ffcc;">
             <h1>these are characters i think are cool:</h1>
             <br>
