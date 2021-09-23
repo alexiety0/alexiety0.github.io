@@ -1,0 +1,47 @@
+body {
+font-family: "Comic Sans MS", sans-serif;
+background-color: #000000;
+}
+footer {
+font-family: sans-serif;
+}
+.sidenav {
+height: 100%;
+width: 160px;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #000000;
+overflow-x: hidden;
+padding-top: 20px;
+}
+.sidenav a {
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 25px;
+color: #000000;
+display: block;
+}
+.sidenav a:hover {
+color: #ff3399;
+}
+a:link {
+text-decoration: none;
+color: #99ffcc;
+}
+.main {
+margin-left: 160px; /* Same as the width of the sidenav */
+font-size: 28px; /* Increased text to enable scrolling */
+padding: 0px 10px;
+}
+.wavy {
+display: inline-flex;
+justify-content: left;
+flex-wrap: wrap;
+white-space: pre-wrap;
+}
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
